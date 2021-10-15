@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/resepin/static/css/main.2b2cd64c.chunk.css",
+    "main.js": "/resepin/static/js/main.7d8e1340.chunk.js",
+    "main.js.map": "/resepin/static/js/main.7d8e1340.chunk.js.map",
+    "runtime-main.js": "/resepin/static/js/runtime-main.1c087881.js",
+    "runtime-main.js.map": "/resepin/static/js/runtime-main.1c087881.js.map",
+    "static/css/2.94d102f3.chunk.css": "/resepin/static/css/2.94d102f3.chunk.css",
+    "static/js/2.e219c37b.chunk.js": "/resepin/static/js/2.e219c37b.chunk.js",
+    "static/js/2.e219c37b.chunk.js.map": "/resepin/static/js/2.e219c37b.chunk.js.map",
+    "static/js/3.1795b75a.chunk.js": "/resepin/static/js/3.1795b75a.chunk.js",
+    "static/js/3.1795b75a.chunk.js.map": "/resepin/static/js/3.1795b75a.chunk.js.map",
+    "index.html": "/resepin/index.html",
+    "static/css/2.94d102f3.chunk.css.map": "/resepin/static/css/2.94d102f3.chunk.css.map",
+    "static/css/main.2b2cd64c.chunk.css.map": "/resepin/static/css/main.2b2cd64c.chunk.css.map",
+    "static/js/2.e219c37b.chunk.js.LICENSE.txt": "/resepin/static/js/2.e219c37b.chunk.js.LICENSE.txt",
+    "static/media/JumbotronComponent.css": "/resepin/static/media/jumbotron-bg.1cfce64e.png",
+    "static/media/DdglEoIC2y4.0cdd2a7f.png": "/resepin/static/media/DdglEoIC2y4.0cdd2a7f.png",
+    "static/media/Logo.b1fb3cea.svg": "/resepin/static/media/Logo.b1fb3cea.svg",
+    "static/media/akar-icons_whatsapp-fill.f3643558.svg": "/resepin/static/media/akar-icons_whatsapp-fill.f3643558.svg",
+    "static/media/ant-design_linkedin-outlined.66326a49.svg": "/resepin/static/media/ant-design_linkedin-outlined.66326a49.svg",
+    "static/media/blood-orange-gin-tonic-cocktail-served-with-slices-orange-glass-removebg-preview.d88ef8e3.png": "/resepin/static/media/blood-orange-gin-tonic-cocktail-served-with-slices-orange-glass-removebg-preview.d88ef8e3.png",
+    "static/media/casey-lee-awj7sRviVXo-unsplash 1.cd385ae7.png": "/resepin/static/media/casey-lee-awj7sRviVXo-unsplash 1.cd385ae7.png",
+    "static/media/casey-lee-awj7sRviVXo-unsplash 2.c4452da6.png": "/resepin/static/media/casey-lee-awj7sRviVXo-unsplash 2.c4452da6.png",
+    "static/media/davide-cantelli-jpkfc5_d-DI-unsplash 1.fb15ca9f.png": "/resepin/static/media/davide-cantelli-jpkfc5_d-DI-unsplash 1.fb15ca9f.png",
+    "static/media/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash 1.c6c9adb3.png": "/resepin/static/media/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash 1.c6c9adb3.png",
+    "static/media/ic_round-menu-book.78e64f80.svg": "/resepin/static/media/ic_round-menu-book.78e64f80.svg",
+    "static/media/icon-park-outline_browser-safari.80a0653e.svg": "/resepin/static/media/icon-park-outline_browser-safari.80a0653e.svg",
+    "static/media/icon-park-outline_chef-hat.ec45c54d.svg": "/resepin/static/media/icon-park-outline_chef-hat.ec45c54d.svg",
+    "static/media/ion_fast-food-outline.80716cc6.svg": "/resepin/static/media/ion_fast-food-outline.80716cc6.svg",
+    "static/media/my1mDMraGf0.e6d208f9.png": "/resepin/static/media/my1mDMraGf0.e6d208f9.png",
+    "static/media/ph_cooking-pot-bold.4bd4f91b.svg": "/resepin/static/media/ph_cooking-pot-bold.4bd4f91b.svg",
+    "static/media/top-view-assortment-vegetables-paper-bag-removebg-preview.fc9bd3d3.png": "/resepin/static/media/top-view-assortment-vegetables-paper-bag-removebg-preview.fc9bd3d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c087881.js",
+    "static/css/2.94d102f3.chunk.css",
+    "static/js/2.e219c37b.chunk.js",
+    "static/css/main.2b2cd64c.chunk.css",
+    "static/js/main.7d8e1340.chunk.js"
+  ]
+}
