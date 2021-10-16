@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.Jumbotron-about{
+    padding: 10%;
+    background-image: url(../../img/AboutUs.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.wrapper{
+    border: 3px solid white;
+    width: 40%;
+    margin: auto;
+    padding: 1%;
+}
+.jumbotron-title-about{
+    font-size: 350%;
+}
+
+.jumbotron-subtitle-about{
+    font-size: 110%;
+}

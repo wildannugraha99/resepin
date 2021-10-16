@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.footerWrapper{
+    background-color: #7C7B7B;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 1%;
+}
+.footer{
+    margin-top: 15%;
+    color: white;
+    padding: 4% 2% 2% 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerLogo{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    /* border: 1px solid white; */
+}
+
+.footerLogo img{
+    width: 100%;
+}
+
+.LogoSubtitle{
+  margin-top: 15%;
+  font-size: 15px;
+}   
+
+.footerProducts{
+    margin-left: 2%;
+    width: 15%;
+    font-size: 15px;
+}
+
+.productsTeksTitle{
+    font-size: 20px;
+    text-align: center;
+}
+
+.productsSubtitle{
+    padding-left: 10%;
+    font-size: 100%;
+}
+
+.iconContacts{
+    text-align: center;
+    
+}
+
+.iconContacts > a{
+    margin: 0 3%;
+    cursor: pointer;
+}
+
+.lineFooter{
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.author{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+@media(max-width:500px){
+    .footerLogo{
+       flex-wrap: wrap;
+        
+    }
+    .LogoSubtitle{
+        font-size: 80%;
+        margin-top: 15%;
+        font-size: 60%;
+      }   
+
+    .footerProducts{
+        margin-left: 2%;
+        width: 55%;
+        font-size: 15px;
+    }
+    .productsTeksTitle{
+        margin-left: 5%;
+        font-size: 80%;
+        text-align: center;
+    }
+    
+    .productsSubtitle{
+        margin-left: 5%;
+        font-size: 60%;
+      
+    }
+    
+    .iconContacts{
+        text-align: center;
+        
+    }
+
+    .iconContacts > a > img{
+      width: 50%;
+      margin-bottom: 20%;
+    }
+
+    .author{
+       
+        font-size: 70%;
+    }
+    
+}

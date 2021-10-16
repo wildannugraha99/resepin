@@ -1,0 +1,10 @@
+.loading-App{
+   text-align: center;
+   margin: 18% 0;
+}
+
+@media(max-width:600px){
+    .loading-App{
+        margin: 60% 0;
+     }
+}

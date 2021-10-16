@@ -1,0 +1,14 @@
+.CardHomeWrapper{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+@media(max-width:500px){
+    .CardHomeWrapper{
+      
+        flex-wrap: wrap;
+        margin-bottom: 4%;
+    }
+
+}

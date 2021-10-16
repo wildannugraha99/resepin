@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.navbar{
+    background-color: #7C7B7B;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.NavItem > a{
+    text-decoration: none;
+}
+
+.NavbarBrand{
+    margin-left: 15%;
+}
+
+.NavbarBrand > img{
+    width: 60%;
+}
+
+.NavItem{
+    margin-left: 10%;
+    border-bottom: none;
+    
+}
+.NavItem:hover{
+    border-bottom: 2px solid white;
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+  
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+@media(max-width:500px){
+    .NavbarBrand > img{
+        width: 60%;
+    }
+    .navbar{
+        font-size: 80%;
+        position: fixed;
+    }
+
+    .menuLogo{
+        margin-right: 5%;
+    }
+
+    .NavbarBrand{
+        margin-left: 10%;
+    }
+    
+}

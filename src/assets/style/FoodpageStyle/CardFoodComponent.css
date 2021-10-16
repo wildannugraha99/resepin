@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Title-food{
+    text-align: center;
+    font-weight: bold;
+    font-size: 160%;
+}
+
+.input-food{
+    display: flex;
+    margin: auto;
+    width: 40%;
+}
+
+.card-food-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+    justify-content:space-evenly;
+    margin-top: 2%;
+    
+}
+
+.card-item-food{
+    border: 1px solid #f3f2f2;
+    box-shadow:  3px 3px 10px #d9d9d9,
+             -3px -3px 10px #ffffff;
+    border-radius: 10px;
+    width: 22%;
+    text-align: center;
+    margin: 1% 0.5%;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+.food-img{
+   width: 100%;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   padding-bottom: 5%;
+}
+.food-teks-card{
+    padding: 0 2%;
+}
+
+.food-loading{
+    margin-top: 3%;
+    text-align: center;
+}
+.food-modal-loading{
+    margin-top: 21%;
+    text-align: center;
+}
+
+.loading-spinner{
+    width:8rem;
+    height:8rem;
+}
+
+.Modal{
+    position: absolute;
+    top: 11%;
+    left: 17%;
+    background-color: whitesmoke;
+    width: 65%;
+    height: 85%;
+    overflow: auto;
+    -webkit-overflow-scrolling:touch;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    padding: 2%;
+}
+
+.Overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.modal-body-food-inner{
+    display: flex;
+    flex-direction: row;  
+}
+
+.img-food{
+    flex-basis: 40%;
+    margin-bottom: 2%;
+}
+.img-food > img{
+    width: 100%;
+    border-radius:10px;
+    margin: unset;
+}
+
+.modal-Teks-food{
+    flex-basis: 55%;
+    margin-left: 5%;
+    font-size: unset;
+}
+
+.food-title-modal{
+   font-size: 200%;
+   font-weight: bold;
+}
+
+.food-category-modal, .food-tags-modal{
+    border: 1px solid #f3f2f2;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 0.1% 1%;
+    box-shadow:  5px 5px 10px #d9d9d9,
+    -5px -5px 10px #ffffff;
+    font-size: unset;
+    margin-top: -1%;
+}
+
+.food-ingredients, .food-instructions{
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.teks-data-not-found{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 500%;
+}
+
+@media(max-width:600px){
+    .Title-food{
+       font-size: 130%;
+    }
+
+    .input-food{
+       width: 90%;
+    }
+
+    .card-item-food{
+       border-radius: 5px;
+        width: 45%;
+        margin: 5% 0.5%;
+        padding-bottom: 5%;
+       
+    }
+    .food-img{
+       border-top-right-radius: 5px;
+       border-top-left-radius: 5px;
+    }
+    
+    .btn-recipe-food{
+        font-size: 70%;
+    }
+
+    .Modal{
+        top: 12%;
+        left: 5%;
+        width: 90%;
+        height: 80%;
+    }
+
+    .modal-body-food-inner{
+       flex-direction: column;  
+    }
+    .img-food > img{
+        width: 85%;
+        margin: 5% 8%;
+        border-radius:5px;
+    }
+
+    .food-title-modal{
+        font-size: 135%;
+        text-align: center;
+     }
+
+     .food-category-modal, .food-tags-modal{
+        padding: 0.1% 1%;
+        font-size: 75%;
+    }
+
+    .food-ingredients, .food-instructions{
+        font-size: 90%;
+    }
+
+    .modal-Teks-food,.food-teks-instruction{
+        font-size: 90%;
+    }
+}

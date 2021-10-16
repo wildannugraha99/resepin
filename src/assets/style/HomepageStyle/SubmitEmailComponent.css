@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.submitComponent{
+    margin-top: -4%;
+    font-family: 'Poppins', sans-serif;
+}
+.titleSubmit{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.subTitleSubmit{
+    text-align: center;
+    font-size: 18px;
+    color: #7C7B7B;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 5%;
+    box-shadow:  10px 10px 20px #d9d9d9,
+    -20px -20px 60px #ffffff;
+}
+
+.inputSubmit{
+    
+    width: 473px;
+    padding: 2% 5%;
+    font-size: 20px;
+   
+}
+
+
+.BtnSubmit{
+    width: 179px;
+    font-size: 20px;
+   
+}
+
+@media(max-width:500px){
+    .submitComponent{
+        margin-top: 2%;
+        
+    }
+
+    .titleSubmit{
+      font-size: 125%;
+    }
+    .subTitleSubmit{
+      font-size: 80%;
+    }
+
+    .inputSubmit{
+        width: 100%;
+        padding: 2% 3%;
+        font-size: 15px;
+    }
+
+    .BtnSubmit{
+        width: 30%;
+        font-size: 15px;
+      
+    }
+    
+    }

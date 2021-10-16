@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300&display=swap');
+
+.Jumbotron{
+    background-image: url(../../img/jumbotron-bg.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+    color: white;
+    text-align: center;
+}
+
+.h1Jumbotron{
+    margin-top: 2%;
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.leadJumbotron{
+    font-size: 24px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ButtonJumbotron{
+    background-color: #7A7575;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #C4C4C4;
+    border-radius: 15px;
+    padding: 0.4% 4%;
+    margin-top: 3%;
+}
+
+@media(max-width:500px){
+    
+    .h1Jumbotron{
+        margin-top: 35%;
+        font-size: 350%;
+       
+    }
+
+    .leadJumbotron{
+        font-size: 90%;
+    }
+    
+    .ButtonJumbotron{
+       font-size: 110%;
+        border-radius: 10px;
+        padding: 1% 10%;
+    }
+    
+}

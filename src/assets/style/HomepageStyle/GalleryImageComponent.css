@@ -1,0 +1,33 @@
+
+
+.GalleryWrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+   
+}
+
+.imgCol1 {
+    text-align: center;
+    flex-basis: 50%;
+    margin-left: 1%;
+    width: 50%;
+    
+}
+.imgCol1 > img{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.imgCol2{
+    text-align: center;
+    flex-basis: 50%;
+   
+}
+
+.imgCol2 > img{
+    width: 90%;
+    height: 76%;
+}
+
+

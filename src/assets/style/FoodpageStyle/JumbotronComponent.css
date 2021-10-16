@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.jumbotronComponent{
+    background-color: #F5F4F4;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.jumbotronImage > img{
+    width: 90%;
+    margin-top: 10%;
+}
+
+.jumbotronTeks{
+    margin-top: 10%;
+    width: 40%;
+    padding: 0 2%;
+}
+
+.jumbotronTitle{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.jumbotronSubtitle{
+    font-size: 20px;
+}
+
+
+
+@media(max-width:500px){
+    .jumbotronComponent{
+     
+    flex-direction: column-reverse;
+        
+    }
+
+    .jumbotronImage > img{
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .jumbotronTeks{
+       text-align: center;
+        width: 100%;
+    }
+    .jumbotronTitle{
+        margin-top: 20%;
+        font-size:200%;
+        font-weight: bold;
+    }
+
+    .jumbotronSubtitle{
+        font-size: 100%;
+    }
+
+   
+}

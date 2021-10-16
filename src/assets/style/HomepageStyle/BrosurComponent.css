@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.brosurWrapper{
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.brosur-1, .brosur-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.brosur-2 > .brosurText{
+    margin-left: 5%;
+}
+
+.brosurTitle{
+    margin-top: 8%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.brosurTeks-1, .brosurTeks-2{
+    padding: 0 10% 0 0;
+    text-align: justify;
+    font-size: 20px;
+    color: #7C7B7B;
+}
+
+.imgBrosur{
+    width:520px;
+    height: 400px;
+}
+
+@media(max-width:500px){
+.brosur-1, .brosur-2{
+  flex-wrap: wrap;
+} 
+
+.brosurTitle{
+    margin-top: 10%;
+    font-size: 130%;
+}
+
+.brosurTeks-1, .brosurTeks-2{
+    padding: 0 10% 0 0;
+    font-size: 80%;
+    
+}
+
+.imgBrosur{
+    margin: auto;
+    width: 80%;
+    height: 20%;
+}
+
+}

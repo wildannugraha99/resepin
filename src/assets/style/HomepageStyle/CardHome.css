@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.CardHome{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 1%;
+    border: 2px solid #f3f2f2;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+    width:276px ;
+    height: 282px;
+    margin:20px ;
+    color: black;
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.CardHome:hover{
+    opacity: 1;
+}
+
+.CardHomeTitle{
+    font-size: 20px;
+}
+
+.CardHome > .cardHomeImg{
+    width:unset;
+}
+
+.CardHomeTeks{
+    font-size: 15px;
+}
+
+@media(max-width:500px){
+    .CardHome{
+        width:45% ;
+        height: 30%;
+        margin:auto ;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        padding: 3%;
+        color: black;
+        border-radius: 10px;
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+
+    .CardHomeTitle{
+        font-size: 90%;
+    }
+
+    .CardHome > .cardHomeImg{
+        width:35%;
+    }
+
+    .CardHomeTeks{
+        font-size: 70%;
+    }
+
+}
