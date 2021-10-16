@@ -15,7 +15,7 @@ import {
 const NavbarComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-    
+
   return (
         <div>
         <Navbar dark expand="sm" className="navbar">
@@ -27,26 +27,26 @@ const NavbarComponent = () => {
 
           <Nav className="mr-auto" navbar>
             <NavItem className="NavItem">
-              <Link to={"/"}>
-                <NavLink href="/components/">Home</NavLink>
+              <Link to={"/"} >
+               <NavLink>Home</NavLink>
               </Link>
             </NavItem>
 
           <NavItem className="NavItem">
             <Link to={"/foodpage"}>
-                <NavLink href="">Foods</NavLink>
+                <NavLink>Foods</NavLink>
             </Link>
           </NavItem>
           
           <NavItem className="NavItem">
             <Link to={"/cocktailspage"}>
-                <NavLink href="">Drinks</NavLink>
+                <NavLink>Drinks</NavLink>
             </Link>
           </NavItem>
 
           <NavItem className="NavItem">
             <Link to={"/aboutpage"}>
-                <NavLink href="">About</NavLink>
+                <NavLink>About</NavLink>
             </Link>
           </NavItem>
            

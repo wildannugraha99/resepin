@@ -7,3 +7,21 @@
     font-size: 200%;
     font-weight: bold;
 }
+
+.quoteWr{
+    font-size: unset;
+}
+
+@media(max-width:600px){
+    .quote-wrapper{
+      margin-top: 10%;
+    }
+
+    .quote{
+        font-size: 100%;
+    }
+
+    .quoteWr{
+        font-size: 80%;
+    }
+}

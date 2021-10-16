@@ -23,3 +23,20 @@
 .jumbotron-subtitle-about{
     font-size: 110%;
 }
+
+@media(max-width:600px){
+    .wrapper{
+       
+        width: fit-content;
+        margin-top: 20%;
+        padding: 1%;
+    }
+
+    .jumbotron-title-about{
+        font-size: 230%;
+    }
+
+    .jumbotron-subtitle-about{
+        font-size: 90%;
+    }
+}
